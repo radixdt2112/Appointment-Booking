@@ -1,0 +1,18 @@
+Roles - id , name 
+
+Shops  - id , name , address , city , state , pincode , contact_no , email , sws_ids , available_seats
+
+Services-list  - id , name
+
+Shop-Services - id , s_id , sl_id , price , details , time_to_complete
+
+Shop-wise-slots - id , s_id , sm_id 
+
+Customers - id , name , email , contact_no
+
+Appointment - id , c_id , s_id , service_id , price 
+
+Review - id , s_id , u_id , msg
+
+Slot-mangagement - id , s_id , time_start , time_end , slot_free
+
